@@ -281,7 +281,7 @@ typedef NS_ENUM(NSUInteger, FTPopOverMenuArrowDirection) {
     if (!_menuTableView) {
         _menuTableView = [[UITableView alloc]initWithFrame:CGRectZero style:UITableViewStylePlain];
         _menuTableView.backgroundColor = FTDefaultBackgroundColor;
-        _menuTableView.separatorColor = [UIColor grayColor];
+        _menuTableView.separatorColor = [UIColor colorWithRed:0.9216 green:0.9216 blue:0.9216 alpha:1];
         _menuTableView.layer.cornerRadius = FTDefaultMenuCornerRadius;
         _menuTableView.scrollEnabled = NO;
         _menuTableView.clipsToBounds = YES;
